@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Luyện thi đại học</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="styles.css"/>
+    </head>
+    <body>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="images/Course_Banner/logo.png" alt=""  height="24">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Trang chủ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Combo giảm giá</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Khoá học
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Ôn thi 8+</a></li>
+                                <li><a class="dropdown-item" href="#">Ôn thi 9+</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">Cấp tốc</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled">Full lớp</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Nội dung tìm kiếm" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Tìm</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <!<!-- End navbar -->
+        <!<!-- Page content -->
+        <div class="container">
+            <div class="row">
+                <!<!-- Menu bar left -->
+                <div class="col-lg-3 ">
+                    <div class="list-group col-md-12">
+                        <a href="#" class="list-group-item list-group-item-action" aria-current="true">
+                            Khoá học
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action">Khoá học 8+</a>
+                        <a href="#" class="list-group-item list-group-item-action">Khoá học 9+</a>
+                        <a href="#" class="list-group-item list-group-item-action">Khoá cấp tốc</a>
+                    </div>
+                    <div class="card col-md-12" style="width: 16.5rem;">
+                        <img src="images/Screen Shot 2023-02-15 at 10.41.43 AM.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Đội ngũ giảng viên đéo có kinh nghiệm, học thì đăng kí không thì lượn!</p>
+                        </div>
+                    </div>
+                </div>
+                <!<!-- Menu bar right -->
+
+                <div class="col-lg-9 ">
+                    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="3000">
+                                <img src="images/Course_Banner/1.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item active" data-bs-interval="3000">
+                                <img src="images/Course_Banner/2.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item active" data-bs-interval="3000">
+                                <img src="images/Course_Banner/3.png" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+
+                    <!<!-- product -->
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 mb-4  card">
+                            <div class="card h-75">
+                                <img class="card-img-top h-75"
+                                     src="images/Untitled design/1.png" alt="">
+                                <div class="card-body h-50">
+                                    <h4 class="card-title">
+                                        <a href="#">Base 8+</a>
+                                    </h4>
+                                    <h5>350.000</h5>
+                                    <p class="card-text">Khoá học cung cấp những kiến thức cơ bản và tiệm nâng cao giúp học viên dễ dàng nắm chắc 8+
+                                    </p>
+                                </div>
+                                <div class="card-footer">
+                                    <small class="text-muted">&#9733; &#9733; &#9733;
+                                        &#9733; &#9734;</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mb-4 card">
+                            <div class="card h-75">
+                                <img class="card-img-top h-75"
+                                     src="images/Untitled design/2.png" alt="">
+                                <div class="card-body h-50 ">
+                                    <h4 class="card-title">
+                                        <a href="#">Nâng cao 9+</a>
+                                    </h4>
+                                    <h5>500.000</h5>
+                                    <p class="card-text">Khoá học cung cấp những kiến thức nâng cao giúp học viên dễ dàng nắm chắc 9+
+                                        .</p>
+                                </div>
+                                <div class="card-footer" style="margin-top: 25px">
+                                    <small class="text-muted">&#9733; &#9733; &#9733;
+                                        &#9733; &#9734;</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mb-4 card">
+                            <div class="card h-75">
+                                <img class="card-img-top h-75"
+                                     src="images/Untitled design/3.png" alt="">
+                                <div class="card-body">
+                                    <h4 class="card-title">
+                                        <a href="#">Cấp tốc</a>
+                                    </h4>
+                                    <h5>350.000</h5>
+                                    <p class="card-text">Lấy gốc trong vòng 30 ngày
+                                    </p>
+                                </div>
+                                <div class="card-footer" style="margin-top: 73px">
+                                    <small class="text-muted">&#9733; &#9733; &#9733;
+                                        &#9733; &#9734;</small>
+                                </div>
+                            </div>
+                        </div>
+                        <!--                    <div class="col-lg-4 col-md-6 mb-4">
+                                                <div class="card h-100">
+                                                    <a href="#"><img class="card-img-top"
+                                                                     src="img/products/2.png" alt=""></a>
+                                                    <div class="card-body">
+                                                        <h4 class="card-title">
+                                                            <a href="#">Áo thun Pro-S1</a>
+                                                        </h4>
+                                                        <h5>50.000</h5>
+                                                        <p class="card-text">Sản phẩm thoáng mát, có độ bền tốt, giữ
+                                                            màu sắc tốt.</p>
+                                                    </div>
+                                                    <div class="card-footer">
+                                                        <small class="text-muted">&#9733; &#9733; &#9733;
+                                                            &#9733; &#9734;</small>
+                                                    </div>
+                                                </div>
+                                            </div>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <!<!-- End content -->
+        <div>
+
+        </div>
+    </body>
+</html>

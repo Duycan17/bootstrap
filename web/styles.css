@@ -1,0 +1,11 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Feb 15, 2023, 9:57:58 AM
+    Author     : duy
+*/
+.card,  .card-footer{
+    border-style: none
+}
